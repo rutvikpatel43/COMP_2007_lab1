@@ -43,11 +43,11 @@
                 <form id="form1" runat="server">
                     <div class="form-group">
                     <asp:Label ID="FirstNameLabel" runat="server" Text="First Name:"></asp:Label>
-                    <asp:TextBox CssClass="form-control" ID="FirstNameText" runat="server"></asp:TextBox>
+                    <asp:TextBox CssClass="form-control" ID="FirstNameText" runat="server" required="true"></asp:TextBox>
                     </div>
                     <div class="form-group">
                         <asp:Label ID="LastNameLabel" runat="server" Text="Last Name:"></asp:Label>
-                        <asp:TextBox CssClass="form-control" ID="LastNameText" runat="server"></asp:TextBox>
+                        <asp:TextBox CssClass="form-control" ID="LastNameText" runat="server" required="true"></asp:TextBox>
                         </div>
                     <div class="form-group">
                         <asp:Label ID="AgeLabel" runat="server" Text="Age :"></asp:Label>
